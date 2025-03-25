@@ -219,7 +219,7 @@ class _MyHomePageState extends State<MyHomePage> {
           Text(_repaymentOutput),
           ElevatedButton(
               onPressed: () {
-// Validate returns true if the form is valid, or false otherwise.
+// Validate returns true if the form is valid, or false otherwise. e
                 if(_formKey.currentState!.validate()){
 // If the form is valid e
                   if(validInterest(_carType)){
