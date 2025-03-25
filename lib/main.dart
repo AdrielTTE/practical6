@@ -221,7 +221,7 @@ class _MyHomePageState extends State<MyHomePage> {
               onPressed: () {
 // Validate returns true if the form is valid, or false otherwise.
                 if(_formKey.currentState!.validate()){
-// If the form is valid
+// If the form is valid e
                   if(validInterest(_carType)){
                     _calculateRepayment();
                   }else{
